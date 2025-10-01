@@ -4,25 +4,40 @@ class Program
 {
     static void Main()
     {
-        // Запрашиваем у пользователя радиус
-        Console.Write("Введите радиус круга: ");
-        double R = Convert.ToDouble(Console.ReadLine());
+        // Инициализация массива из 10 элементов
+        int[] array = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
 
-        // Проверяем, что радиус не отрицательный
-        if (R < 0)
+        // Вывод оригинального массива
+        Console.WriteLine("Оригинальный массив:");
+        foreach (int element in array)
         {
-            Console.WriteLine("Ошибка: радиус не может быть отрицательным. Пожалуйста, введите положительное значение.");
+            Console.Write(element + " ");
         }
-        else
+        Console.WriteLine();
+
+        // Ввод целого числа от пользователя
+        Console.Write("Введите целое число для замены максимального элемента: ");
+        int userInput = int.Parse(Console.ReadLine());
+
+        // Поиск индекса максимального элемента
+        int maxIndex = 0;
+        for (int i = 1; i < array.Length; i++)
         {
-            // Вычисляем площадь круга
-            double S = Math.PI * Math.Pow(R, 2);
-
-            // Выводим результат
-            Console.WriteLine($"Площадь круга с радиусом {R} равна {S:F2}");
+            if (array[i] > array[maxIndex])
+            {
+                maxIndex = i;
+            }
         }
 
-        Console.ReadKey();
+        // Замена максимального элемента на введенное число
+        array[maxIndex] = userInput;
+
+        // Вывод измененного массива
+        Console.WriteLine("Измененный массив:");
+        foreach (int element in array)
+        {
+            Console.Write(element + " ");
+        }
+        Console.WriteLine();
     }
 }
-

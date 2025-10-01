@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\ПОБЕДААА\\лабы 1 семестр\\Практика по программированию\\Модуль 1.1+\\Задания\\Модуль 1\\Задание 1\\Задание 1.csproj",
+      "projectUniqueName": "C:\\Users\\Digit\\Desktop\\Лабы\\Практика по программированию\\Модуль 1.2+\\Задания\\Модуль 1.2\\Задание 1\\Задание 1.csproj",
       "projectName": "Задание 1",
-      "projectPath": "D:\\ПОБЕДААА\\лабы 1 семестр\\Практика по программированию\\Модуль 1.1+\\Задания\\Модуль 1\\Задание 1\\Задание 1.csproj",
+      "projectPath": "C:\\Users\\Digit\\Desktop\\Лабы\\Практика по программированию\\Модуль 1.2+\\Задания\\Модуль 1.2\\Задание 1\\Задание 1.csproj",
       "packagesPath": "C:\\Users\\Digit\\.nuget\\packages\\",
-      "outputPath": "D:\\ПОБЕДААА\\лабы 1 семестр\\Практика по программированию\\Модуль 1.1+\\Задания\\Модуль 1\\Задание 1\\obj\\",
+      "outputPath": "C:\\Users\\Digit\\Desktop\\Лабы\\Практика по программированию\\Модуль 1.2+\\Задания\\Модуль 1.2\\Задание 1\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
